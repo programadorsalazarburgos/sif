@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} sif/
+RewriteBase /sif/
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . public/ [L,R=302]
+RewriteRule ^(.*Node.*)$ public/ [QSA,L,R=302]
+RewriteRule ^$ public/ [QSA,L,R=302]
+
+<IfModule mod_php5.c>
+    php_value always_populate_raw_post_data -1
+</IfModule>

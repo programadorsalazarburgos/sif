@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} src/
+RewriteBase /sif/src/
+RewriteRule ^(.*SeguimientoContratistas.*)$ autoloader.php?url=$1 [QSA,L]
+RewriteRule ^(.*ArtistaFormador.*)$ autoloader.php?url=$1 [QSA,L]
+RewriteRule ^(.*Circulacion/.*)$ autoloader.php?url=$1 [QSA,L]
+RewriteRule ^(.*Beneficiario/.*)$ autoloader.php?url=$1 [QSA,L]
+RewriteRule ^(.*GestionClan/.*)$ autoloader.php?url=$1 [QSA,L]
+RewriteRule ^(.*PedagogicoCREA/.*)$ autoloader.php?url=$1 [QSA,L]
+RewriteRule ^(.*Organizaciones/.*)$ autoloader.php?url=$1 [QSA,L]
+RewriteRule ^(.*PedagogicoNidos/.*)$ autoloader.php?url=$1 [QSA,L]
+RewriteRule ^(.*Psicosocial.*)$ autoloader.php?url=$1 [QSA,L]
+#RewriteRule !^src/$ %{REQUEST_URI}/autoloader.php?url=$1 [QSA,L]

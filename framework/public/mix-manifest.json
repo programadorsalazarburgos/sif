@@ -1,0 +1,11 @@
+{
+    "/js/administracion/app.js": "/js/administracion/app.js",
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/cdm/app.js": "/js/cdm/app.js",
+    "/js/culturas/app.js": "/js/culturas/app.js",
+    "/js/infraestructura/app.js": "/js/infraestructura/app.js",
+    "/js/nidos/app.js": "/js/nidos/app.js",
+    "/js/organizaciones/app.js": "/js/organizaciones/app.js",
+    "/js/reportes/app.js": "/js/reportes/app.js"
+}

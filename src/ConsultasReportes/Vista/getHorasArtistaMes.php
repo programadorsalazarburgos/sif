@@ -1,0 +1,65 @@
+<?php
+
+$return = "";
+foreach ($this->getVariables()['horas'] as $g) {
+$return .="
+<tr>
+	<td>".$g['tipo']."</td>
+	<td>".$g['documento']."</td>
+	<td>".$g['af']."</td>
+	<td>".$g['organizacion']."</td>
+	<td>".$g['organizaciones_af']."</td>
+	<td>".$g['perfil']."</td>
+	<td>".$g['Area']."</td> 
+	<td>".$g['tipo_contrato']."</td> 
+	<td>".$g['horas_enero']."</td>
+	<td>".$g['clases_enero']."</td>												
+	<td>".$g['numero_grupos_enero']."</td>
+	<td>".$g['grupos_enero']."</td>												
+	<td>".$g['horas_febrero']."</td>
+	<td>".$g['clases_febrero']."</td>												
+	<td>".$g['numero_grupos_febrero']."</td>
+	<td>".$g['grupos_febrero']."</td>
+	<td>".$g['horas_marzo']."</td>
+	<td>".$g['clases_marzo']."</td>												
+	<td>".$g['numero_grupos_marzo']."</td>
+	<td>".$g['grupos_marzo']."</td>	
+	<td>".$g['horas_abril']."</td>
+	<td>".$g['clases_abril']."</td>												
+	<td>".$g['numero_grupos_abril']."</td>
+	<td>".$g['grupos_abril']."</td>															
+	<td>".$g['horas_mayo']."</td>
+	<td>".$g['clases_mayo']."</td>												
+	<td>".$g['numero_grupos_mayo']."</td>
+	<td>".$g['grupos_mayo']."</td>															
+	<td>".$g['horas_junio']."</td>
+	<td>".$g['clases_junio']."</td>												
+	<td>".$g['numero_grupos_junio']."</td>
+	<td>".$g['grupos_junio']."</td>
+	<td>".$g['horas_julio']."</td>
+	<td>".$g['clases_julio']."</td>												
+	<td>".$g['numero_grupos_julio']."</td>
+	<td>".$g['grupos_julio']."</td>
+	<td>".$g['horas_agosto']."</td>
+	<td>".$g['clases_agosto']."</td>												
+	<td>".$g['numero_grupos_agosto']."</td>
+	<td>".$g['grupos_agosto']."</td>	
+	<td>".$g['horas_septiembre']."</td>
+	<td>".$g['clases_septiembre']."</td>												
+	<td>".$g['numero_grupos_septiembre']."</td>
+	<td>".$g['grupos_septiembre']."</td>	
+	<td>".$g['horas_octubre']."</td>
+	<td>".$g['clases_octubre']."</td>												
+	<td>".$g['numero_grupos_octubre']."</td>
+	<td>".$g['grupos_octubre']."</td>		
+	<td>".$g['horas_noviembre']."</td>
+	<td>".$g['clases_noviembre']."</td>												
+	<td>".$g['numero_grupos_noviembre']."</td>
+	<td>".$g['grupos_noviembre']."</td>														
+	<td>".$g['horas_diciembre']."</td>
+	<td>".$g['clases_diciembre']."</td>												
+	<td>".$g['numero_grupos_diciembre']."</td>
+	<td>".$g['grupos_diciembre']."</td>																																						
+</tr>";
+}
+echo $return;

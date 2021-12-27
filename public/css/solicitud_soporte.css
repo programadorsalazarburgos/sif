@@ -1,0 +1,140 @@
+.bootstrap-filestyle > .form-control{
+    width: 0px;
+    opacity: 0;    
+}
+#TFK_Actividad_Apertura{
+	width: 100%;
+}
+.mb-0{
+    margin-bottom: 0.5em;
+}
+.mb-1{
+    margin-bottom: 1em;
+}
+.mb-2{
+    margin-bottom: 1.5em;
+}
+.mb-3{
+    margin-bottom: 2em;
+}
+.mb-4{
+    margin-bottom: 2.5em;
+}
+.descripcion{
+	min-width: 300px !important;
+}
+
+@media (min-width: 992px){
+	.modal-xl {
+	    width: 95%;
+	}	 
+} 
+ 
+#contenedorAdjuntos{
+
+}
+.iconoAdjunto{
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin: 0 5px;
+    padding: 6px; 
+}
+.iconoAdjunto span{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+} 
+.botones_respuesta{
+    margin-top: 5px;
+    padding-right: 15px;    
+}
+#archivos_adjuntos_incidente{ 
+    padding: 15px; 
+    margin-top:5px;    
+}
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.input-group-addon{
+    width: 50px;
+}
+
+/******* EFECTO DESTACADO ************/
+#div_SL_observadores{
+    overflow: hidden;  
+}
+#div_SL_observadores > .input-group-selectpicker{
+    margin: 2px; 
+}
+
+
+/*#div_SL_observadores > .input-group > button{   
+    overflow-x:hidden; 
+}*/
+/*filter-option*/
+#div_SL_observadores > .input-group-selectpicker:before {
+  box-sizing: border-box;
+  transform: translateX(100%);
+  content: ''; 
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  width: 100%;
+  height: 2px;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+#div_SL_observadores > .input-group-selectpicker:after { 
+  box-sizing: border-box;
+  transform: translateX(-100%);
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 100%;
+  height: 2px;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+#div_SL_observadores > .input-group-selectpicker:hover:before {
+  transition: .5s transform linear, .2s height linear .5s;
+  transform: translateX(0);
+  height: 100%;
+  border-color: #1fbfac;
+} 
+#div_SL_observadores > .input-group-selectpicker:hover:after {
+  transition: .5s transform linear .2s, .2s height linear .3s;
+  transform: translateX(0);
+  height: 100%;
+  border-color: #1fbfac; 
+}
+
+.input-group-selectpicker{
+    padding: 0;
+    display: inline-flex;
+}
+
+
+
+.input-group-addon:first-child{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;    
+}
+.input-group-selectpicker .form-control:last-child, .input-group-addon:last-child,
+.input-group-selectpicker .form-control button.dropdown-toggle{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;    
+}
+.input-group-selectpicker .form-control{
+    width: 96.25% !important;  
+}
+
+.input-group-selectpicker .input-group-addon{
+    width: 47px;
+}

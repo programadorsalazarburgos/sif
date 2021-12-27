@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="PapaParse.js"></script>
+
+	<link href="../bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" rel="stylesheet">
+	<script src="../bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+
+	<link href="../bower_components/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+	<script src="../bower_components/bootstrap-select/dist/js/bootstrap-select.min.js" type="text/javascript" ></script>
+
+	<script src="../bower_components/moment/moment.js" type="text/javascript"></script>
+
+	<script src="../bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js"></script>
+
+	<script src="../bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<style type="text/css">
+		#datos th, #datos td {
+			border-bottom: black 1px solid;
+			border-left: black 1px solid;
+			border-top: black 1px solid;
+			border-right: black 1px solid;
+
+		}
+		#datos th{
+			text-align: center;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div class="form-inline">
+		<div class="form-group">
+			<input class="form-control" type="file" name="fileInput" id="fileInput">
+			<button class="form-control btn btn-default" type="button" id="cargar" disabled>cargar</button>
+		</div>
+	</div>
+	<form id="form-beneficiarios">
+		<div class="container-fluid">
+			<div id="campos" class="table-responsive col-lg-12 col-md-12">
+				<table id="datos" class="table display table-striped table-bordered table-hover" width="100%">
+					<thead>
+						<tr style="">
+							<th style="width: 1%; vertical-align: middle;">#</th>
+							<th >Tipo documento</th>
+							<th >Número documento</th>
+							<th >Fecha de nacimiento</th>
+							<th >Primer nombre</th>
+							<th >Segundo nombre</th>
+							<th >Primer apellido</th>
+							<th >Segundo apellido</th>
+							<th >Género</th>
+							<th >Estrato</th>
+							<th >Enfoque diferencial</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<button class="btn" type="submit" id="enviar">enviar</button>
+	</form>
+</body>
+</html>

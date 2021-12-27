@@ -1,0 +1,63 @@
+body{
+	overflow-x:hidden;
+	font-family: 'Play';
+	background-image: url("../images/background_danza.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+img {max-width:100%;}
+/* centered columns styles */
+.row-centered {text-align:center;}
+.col-centered {
+	display:inline-block;
+	float:none;
+	/* reset the text-align */
+	text-align:right;
+	/* inline-block space fix */
+	margin-right:-4px;
+}
+.btn-info, .btn-info:active:hover{
+	background-color: #009f99;
+	border-color: #009f99;
+}
+.btn-info:hover{
+	background-color: #009f99c9;
+	border-color: #009f99;	
+}
+p{
+	font-family: 'Prompt';
+	font-size: 17px; 
+}
+label{text-align: right;}
+
+#container {
+	height: 400px; 
+	min-width: 310px; 
+	max-width: 800px;
+	margin: 0 auto;
+}
+.container .panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.panel{
+	margin-top: 10%;
+}
+.modal .modal-body {
+	max-height: 500px;
+	overflow-y: auto;
+}
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}

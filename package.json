@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "datatables.net-bs4": "^1.11.3",
+    "vue-form-wizard": "^0.8.4",
+    "vue-search-select": "^2.9.4",
+    "vue-select": "^3.13.0"
+  }
+}

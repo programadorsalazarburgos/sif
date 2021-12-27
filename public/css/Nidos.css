@@ -1,0 +1,38 @@
+#tabla_Titulos_Registro th{
+  background: #E6E6E6;
+  text-align: center;
+  border: 1px solid  black;
+  width: 10%;
+}
+#tabla_Titulos_Registro td{
+  text-align: center;
+  border: 1px solid  black;
+  width: 10%;
+}
+#tabla_encabezado th{
+  background: #D3E5EE;
+  text-align: center;
+  border: 1px solid  black;
+  width: 20%;
+  height: 20px;
+}
+#tabla_encabezado td{
+  text-align: center;
+  border: 1px solid  black;
+}
+
+#tabla_logos {
+  margin-bottom: 0px;
+}
+
+#tabla_logos td{
+  text-align: center;
+  border: 1px solid  black;
+}
+
+
+#tabla_experienciaguardadas td{
+  text-align: center;
+  border: 1px solid  black;
+
+}

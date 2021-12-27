@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bootstrap-fileinput": "^5.0.4",
+    "bootstrap-icons": "^1.4.0",
+    "datatables.net-bs": "^1.10.22",
+    "datatables.net-buttons-bs": "^1.6.5",
+    "datatables.net-fixedcolumns-bs": "^3.3.2",
+    "datatables.net-responsive-bs": "^2.2.6",
+    "html2canvas": "^1.0.0-rc.1",
+    "jszip": "^3.5.0"
+  }
+}

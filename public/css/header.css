@@ -1,0 +1,32 @@
+    div{
+        font-family: 'Prompt';
+        font-size: 14px; 
+    }
+    .notification{
+        padding: 4px 7px;
+        /*margin-left: -21px;*/
+        margin-top: -25px;
+        background-color: #d23535;
+    }
+    .notificacionMenu {
+        float: none;
+        min-width: 1300%;
+        max-height: 500px;
+        overflow-y: overlay;
+    }
+    
+    @media screen and (max-width: 850px) and (min-width: 600px) {
+        .notificacionMenu {            
+            min-width: 900%;
+        }
+    }
+    @media screen and (max-width: 600px) and (min-width: 430px) {
+        .notificacionMenu {            
+            min-width: 560%;
+        }
+    }
+    @media screen and (max-width: 430px)  {
+        .notificacionMenu {            
+            min-width: 420%;
+        }
+    }
